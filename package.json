@@ -1,0 +1,19 @@
+{
+	"name": "validator",
+	"version": "0.0.1",
+	"private": true,
+	"description": "A custom, light-weight unicode text validator for use in a environment front-end to validate user input according to desired rules.",
+	"author": "Madeline Roy",
+	"devDependencies": {
+		"@types/jest": "^29.5.14",
+		"jest": "^29.7.0",
+		"ts-jest": "^29.2.5",
+		"typescript": "~5.5.2"
+	},
+	"scripts": {
+		"test": "jest"
+	},
+	"dependencies": {
+		"ts-node": "^10.9.2"
+	}
+}

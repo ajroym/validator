@@ -1,0 +1,26 @@
+{
+	"compileOnSave":false,
+	"compilerOptions": {
+		"removeComments":true,
+		"outDir":"./dist/out",
+		"noImplicitAny":true,
+		"strict":true,
+		"noUncheckedIndexedAccess": true,
+		"esModuleInterop": true,
+		"moduleDetection": "force",
+		"isolatedModules": true,
+		"sourceMap":true,
+		"allowJs": true,
+		"skipLibCheck": true,
+		"importHelpers":true,
+		"declaration":true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"moduleResolution":"node16",
+		"target":"ES2022",
+		"module":"Node16",
+		"lib":[
+			"ES2022"
+		]
+	}
+} 
