@@ -24,4 +24,22 @@ export function isUpperCase(char: string): boolean {
 */
 export function adheresToRegExpPattern(input: string, strRegex: RegExp): boolean {
     return strRegex.test(input);
-} 
+}
+
+/*
+    Compares a string to another strng or a collection of strings.
+    It only compares one string to all other strings, checking for true equality.
+*/
+export function compareEquality(base: string, values : string | string[]) {
+    if (typeof values === 'string') {
+        return base === values;
+    }
+
+    values = values as string[];
+    for (let value of values) {
+        if (base !== value) {
+            return false;
+        }
+    }
+    return true;
+}
